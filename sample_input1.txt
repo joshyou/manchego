@@ -1,0 +1,19 @@
+( ( (word word2
+word99 word3
+"normal string"
+ww))
+239)
++124.98436()
+-77
+asdf()
+2452435.55 
+3.
+(hello
+"hey what \nup?"
+#t
+"hello\tworld"
+#f
+"\"So he was like \'Why?\'\"!!"
+adsf
+"\\"
+#t

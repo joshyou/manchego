@@ -1,0 +1,4 @@
+; test for evaluation of multi-command body in lambda
+
+(define f (lambda (x) (set! x 13) x))
+(f 2) ;correct output is 13

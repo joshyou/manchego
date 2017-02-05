@@ -1,0 +1,4 @@
+; test for or
+(or 1 2 3) ;should return 1
+(or #f 1 2) ;should return 1
+(or #f #f #f) ;should return #f

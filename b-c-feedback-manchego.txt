@@ -1,0 +1,5 @@
+- Your findSymbol function has a slight memory leak; adding the null-terminator at the end of newStr runs off the end of allocated memory. You can just allocate an extra char-length to fix that.
+- There's another memory error in talloc; the call to free(activeList) on line 97 is redundant, and frees values that have already been deallocated. I just commented that out, and valgrind was happy again.
+- Your findSymbol() function in the tokenizer has some minor code reuse issues. The two branches (symbol and string) are identical except for the string's escape character stuff. (The checking for ASCII character 7 could probably be done in the symbol part too, since that character should never appear in a symbol).
+- The tokenize() function could benefit from some more helper functions - each of the else if branches could be put into its own function, which would make the code more readable
+- Instead of writing the integer ASCII values of characters, you can just write the character - e.g. if(x == 'a'). It's a lot easier to understand that way.

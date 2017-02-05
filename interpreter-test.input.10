@@ -1,0 +1,14 @@
+9.92
+20
+"string"
+(define a "this is a")
+a
+(define mylist (quote (1 2 3)))
+mylist
+(car mylist)
+(cdr mylist )
+(cons 1 (quote (2)))
+(cons 1 2)
+(cons (quote (1)) 2)
+(cons 1 (quote (2)))
+(cons (quote (1)) (quote (2)))

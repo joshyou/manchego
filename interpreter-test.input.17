@@ -1,0 +1,4 @@
+; test for not
+(not #t)
+(not #f)
+(not 1)

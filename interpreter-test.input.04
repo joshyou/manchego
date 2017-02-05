@@ -1,0 +1,4 @@
+(define x 1)
+(define y 2)
+(define z 3)
+(let ((x 6) (y 7)) z)

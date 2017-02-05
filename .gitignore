@@ -1,0 +1,4 @@
+*.o
+*._*
+interpreter
+test.ss

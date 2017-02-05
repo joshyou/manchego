@@ -1,0 +1,5 @@
+(define myfunc (lambda (x y) x))
+(define x 20)
+(set! x 10)
+(myfunc 99 x)
+(myfunc x 100)
