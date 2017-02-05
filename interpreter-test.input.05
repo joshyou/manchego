@@ -1,4 +1,0 @@
-(define x 6)
-x
-(let ((x 99)) x)
-x

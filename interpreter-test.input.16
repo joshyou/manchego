@@ -1,3 +1,0 @@
-; test for and
-(and 1 2 3) ; => 3
-(and 1 2 #f) ; => #f

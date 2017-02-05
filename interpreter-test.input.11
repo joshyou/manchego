@@ -1,3 +1,0 @@
-; test for unspecified number of args for lambda
-(define f (lambda x x))
-(f 1 2 3)

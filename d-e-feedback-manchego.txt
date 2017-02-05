@@ -1,2 +1,0 @@
-You've still got a memory error in talloc.c - an unnecessary free statement, on line 96.
-Nice commenting on the eval function - it's very clear despite the size of the function.

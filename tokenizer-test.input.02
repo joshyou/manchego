@@ -1,3 +1,0 @@
-(define 	ADD2 
-	(lambda (x 		y) 
-		(+ 	x	y)	)	)

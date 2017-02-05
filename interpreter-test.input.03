@@ -1,3 +1,0 @@
-(define x 99)
-(if x (quote (look im in a quote)) 44)
- 

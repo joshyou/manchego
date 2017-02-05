@@ -1,9 +1,0 @@
-; test for letrec
-(letrec ((is-even? (lambda (n)
-                       (or (zero? n)
-                           (is-odd? (+ -1 n)))))
-           (is-odd? (lambda (n)
-                      (and (not (zero? n))
-                           (is-even? (+ -1 n))))))
-    (is-odd? 3)
-    (is-odd? 4))
